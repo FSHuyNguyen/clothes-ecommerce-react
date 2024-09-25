@@ -17,6 +17,7 @@ const App = () => {
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
+    console.log('setOrderPopup')
   };
 
   useEffect(() => {
